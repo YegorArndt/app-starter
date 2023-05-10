@@ -2,6 +2,15 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": true,
         "source.addMissingImports": true,
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"       ,
+    "files.associations": {
+        "*.cjs": "javascript"
+    },
+    "prettier.configPath": "./prettier.config.cjs"  ,
+    "[javascript]": {
+        "editor.formatOnSave": true
     }
-         
+    
 }
